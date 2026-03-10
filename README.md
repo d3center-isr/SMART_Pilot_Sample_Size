@@ -1,23 +1,23 @@
-# Shiny App for Planning Power for Multilevel Factorial Designs with Experiment-Induced Clustering
+# Shiny App for Planning Power for a Pilot Sequential Multiple Assignment Randomized Trial (SMART)
 
 ## Description
 
-The material in this repository contains code for a Shiny app implementing power formulae for planning power for multilevel factorial designs with experiment-induced clustering.
+The material in this repository contains code for a Shiny app implementing sample size formulae for planning sample size for pilot SMARTs.
 
 ## About the Team
 
-This repository was developed at the University of Michigan, Institute for Social Research - [Data Science for Dynamic Intervention Decision Making Center (d3c)](https://d3c.isr.umich.edu/).
+This repository was developed at the University of Michigan, Institute for Social Research.
 
 ## Credits
 
 #### Contributors:
 
--   Jamie Yap [(@jamieyap)](https://github.com/jamieyap)
--   John Dziak [(@dziakj1)](https://github.com/dziakj1)
+-   Nicholas Seewald [(@nickseewald)](https://github.com/nickseewald)
+-   Hwanwoo Kim [(@hwkim12)](https://github.com/hwkim12)
 
 #### The power formulae for this Shiny app is based on formulae in the following paper:
 
--   Nahum-Shani, I., Dziak, J. J., & Collins, L. M. (2018). Multilevel factorial designs with experiment-induced clustering. Psychological methods, 23(3), 458.
+-   Kim, Hwanwoo, Edward Ionides, and Daniel Almirall. "A sample size calculator for SMART pilot studies." SIAM undergraduate research online 9 (2016): 229.
 
 ## License
 
