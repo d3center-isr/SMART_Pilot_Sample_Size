@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(
-  navbarPage("SMART Sample Size Calculator for Pilot studies", id="SMARTsize",
+  navbarPage("Sample Size Calculator for SMART pilot studies", id="SMARTsize",
 
              ##### HOME TAB#####
              
@@ -106,7 +106,9 @@ shinyUI(
                                       or the availability of the second-stage treatments, all individuals are rerandomized. Note that subsequent treatment options depend on both the initial treatment received and the response/non-response status."),
                                    p("There are",em("eight"),"adaptive interventions in this design: ArCnrE, ArCnrF, ArDnrE, ArDnrF, BrGnrI, BrGnrJ, BrHnrI, BrHnrJ."),
                                    p("An illustrative example of a SMART with design A is this study on adaptive interventions for pregnant women who abuse drugs: "), 
-                                   a(href = "https://d3c.isr.umich.edu/case_study/adaptive-treatment-for-pregnant-women-who-abuse-drugs/", "https://d3c.isr.umich.edu/case_study/adaptive-treatment-for-pregnant-women-who-abuse-drugs/"),
+                                   a(href = "https://myumi.ch/kPzJ3", "https://myumi.ch/kPzJ3"),
+                                   p("For more information about SMARTs, see 'Advancing the science of adaptive interventions':"),
+                                   a(href = "https://myumi.ch/4mkWm", "https://myumi.ch/4mkWm"),
                                    tags$hr(),
                                    h4("Inputs:"),
                                    tags$ul(
@@ -187,7 +189,9 @@ shinyUI(
                                      to treatment A or B are re-randomized between two options for second-stage treatment, whereas responders are assigned to the single second-stage treatment."),
                                    p("There are",em("four"),"adaptive interventions in this design: ArCnrD, ArCnrE, BrFnrG, BrFnrH."),
                                    p("An illustrative example of a SMART with design B is this study on adaptive interventions for adolescent cannabis users: "),
-                                   a(href = "https://d3c.isr.umich.edu/case_study/adaptive-intervention-for-adolescent-marijuana-use/", "https://d3c.isr.umich.edu/case_study/adaptive-intervention-for-adolescent-marijuana-use/"),
+                                   a(href = "https://myumi.ch/g38nW", "https://myumi.ch/g38nW"),
+                                   p("For more information about SMARTs, see 'Advancing the science of adaptive interventions':"),
+                                   a(href = "https://myumi.ch/4mkWm", "https://myumi.ch/4mkWm"),
                                    tags$hr(),
                                    h4("Inputs:"),
                                    tags$ul(
@@ -255,7 +259,9 @@ shinyUI(
                                      to the first-stage treatment. Only those individuals who do not respond to treatment A are re-randomized."),
                                    p("There are",em("three"),"embedded adaptive interventions in this design: ArCnrD, ArCnrE, BrFnrG."),
                                    p("An illustrative example of SMART with design C is this study on adaptive interventions for school-aged children who are nonverbal: "),
-                                   a(href = "https://d3c.isr.umich.edu/case_study/characterizing-cognition-in-nonverbal-individuals-with-autism/", "https://d3c.isr.umich.edu/case_study/characterizing-cognition-in-nonverbal-individuals-with-autism/"),
+                                   a(href = "https://myumi.ch/mRwPx", "https://myumi.ch/mRwPx"),
+                                   p("For more information about SMARTs, see 'Advancing the science of adaptive interventions':"),
+                                   a(href = "https://myumi.ch/4mkWm", "https://myumi.ch/4mkWm"),
                                    tags$hr(),
                                    h4("Inputs:"),
                                    tags$ul(
@@ -326,7 +332,9 @@ shinyUI(
                                    p("There are",em("zero"),"embedded adaptive interventions in this design, and",em("four"),"embedded non-adaptive
                                      'intervention paths': AC, AD, BE, BF."),
                                    p("An illustrative example of a SMART with design D is this study on interventions for cocaine abuse: "),
-                                   a(href = "https://d3c.isr.umich.edu/case_study/smart-design-for-attendance-based-prize-contingency-management-cm-for-cocaine-abuse/", "https://d3c.isr.umich.edu/case_study/smart-design-for-attendance-based-prize-contingency-management-cm-for-cocaine-abuse/"),
+                                   a(href = "https://myumi.ch/rAkbr", "https://myumi.ch/rAkbr"),
+                                   p("For more information about SMARTs, see 'Advancing the science of adaptive interventions':"),
+                                   a(href = "https://myumi.ch/4mkWm", "https://myumi.ch/4mkWm"),
                                    tags$hr(),
                                    h4("Inputs:"),
                                    tags$ul(                   
